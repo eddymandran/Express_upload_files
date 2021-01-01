@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload de fichiers</title>
+  </head>
+  <body>
+    <form
+      method="post"
+      enctype="multipart/form-data"
+      action="http://localhost:8080/monupload"
+    >
+      <input type="file" name="monfichier" multiple accept=".png" />
+      <button>Send</button>
+    </form>
+  </body>
+</html>
